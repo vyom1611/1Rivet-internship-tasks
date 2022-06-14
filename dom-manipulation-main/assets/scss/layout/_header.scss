@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 6px 1px 5px 0px rgba($gray, 0.3);
+  min-height: 70px;
+  font-size: 1.8rem;
+
+  &__brand:link,
+  &__brand:visited {
+    color: $primary;
+    text-decoration: none;
+    border-top: 2px solid $primary;
+    border-bottom: 2px solid $primary;
+    margin-left: 5rem;
+  }
+
+  &__nav {
+    display: flex;
+    padding-right: 5rem;
+  }
+
+  &__nav-item {
+    color: $gray;
+    font-size: 2rem;
+
+    &:not(:last-child) {
+      margin-right: 2.5rem;
+    }
+  }
+
+  &__nav-item.active {
+    border-bottom: 3px solid $primary;
+  }
+}

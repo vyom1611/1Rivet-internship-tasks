@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsDOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+      <section class="section-contact">
+        <h2 class="heading-secondary">Contact Us</h2><br><br>
+        <div>
+          <form>
+            <div>
+              <input type="text" name="name" id="name" placeholder="Name">
+              <p id="name-msg" class="error-msg"></p>
+            </div>
+            <div>
+              <input type="tel" name="phone" id="phone" placeholder="Phone">
+              <p id="phone-msg" class="error-msg"></p>
+            </div>
+            <div>
+              <input type="email" name="email" id="email" placeholder="Email ID">
+              <p id="email-msg" class="error-msg"></p>
+            </div>
+            <div>
+              <input type="password" name="password" id="password" placeholder="Password">
+              <p id="password-msg" class="error-msg"></p>
+            </div>
+            <div>
+              <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+              <p id="confirm-password-msg" class="error-msg"></p>
+            </div>
+            <button type="button" onclick="toSubmit()">Contact Us</button>
+          </form>
+        </div>
+      </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

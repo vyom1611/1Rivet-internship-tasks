@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.section-home {
+  padding: 10rem 5rem;
+}
+
+.section-about {
+  padding: 10rem 5rem;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.section-services {
+  padding: 10rem 5rem;
+}
+
+.section-contact {
+  padding: 10rem 5rem;
+  background-color: $light-blue-primary;
+}
