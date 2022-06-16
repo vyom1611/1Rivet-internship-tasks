@@ -56,6 +56,8 @@ li a:hover {
     margin-left: 17rem;
     position: absolute;
     z-index: -50;
+    max-width: 80%;
+    max-height: 100%;
 
 }
 
@@ -81,9 +83,43 @@ li a:hover {
     margin: 10px;
 }
 
-.collage p {
-    border: black solid 2px;
+.paras {
+    color:rgb(93, 100, 86);
     width: 50%;
-    margin-left: 35rem;
-    margin-top: -20rem;
+    margin-left: 30rem;
+    margin-top: -30rem;
+}
+
+.paras a {
+    font-weight: 600;
+    text-decoration: underline;
+    color:rgb(83, 111, 94);
+}
+
+.services h2 {
+    margin-top: 2rem;
+    color: rgb(83, 111, 94);
+    text-decoration-thickness: 0.125rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    float: right;
+    margin-right: 7rem;
+}
+
+.card-container {
+    display: flex;
+    margin: 15rem 2rem;
+    flex-flow: row wrap;
+    flex-flow: nowrap;
+    
+}
+
+.card {
+    border: solid 2px black;
+    padding-top: 10rem;
+    margin: 15rem 1rem;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    background-color: azure;
 }
