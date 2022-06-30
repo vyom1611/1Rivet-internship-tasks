@@ -4,7 +4,7 @@ body {
 }
 
 .header-nav {
-    position: sticky;
+    width: 100%;
 }
 
 .header-nav ul {
@@ -142,7 +142,6 @@ body {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 10rem;
-    flex-flow: row wrap;
     flex-flow: nowrap;
     width: 100%;
     justify-content: center;
@@ -265,3 +264,143 @@ body {
     font-weight: 500;
     text-decoration: none;
   }
+
+@media (min-width: 320px)and (max-width: 480px) {
+
+    .card-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        min-width: 90%;
+    }
+
+    .paragraphs {
+        padding:1px;
+        margin: auto;
+        width: auto;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-nav {
+        width: 320px;
+    }
+
+    .head-main {
+        width: auto;
+    }
+
+    .pic1 img {
+        width: 250px;
+        height: 200px;
+        margin-left: -270px;
+        margin-top: 250px;
+    }
+
+    .collage {
+        justify-content: space-around;
+        align-content:space-around;
+    }
+
+    .footer-ul{
+        width: 107.5%;
+    }
+
+    .header-nav li a {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 20px;
+        padding: 4px 4px;
+
+    }
+
+    .header-nav ul {
+        width:107.5%;
+    }
+
+    .contact-box {
+        justify-content: space-between;
+    }
+
+    .side-text {
+        margin: auto;
+    }
+
+    }
+
+
+@media (min-width: 481px)and (max-width: 768px) {
+
+    .card-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        min-width: 85%;
+    }
+
+    .paragraphs {
+        padding:1px;
+        margin: auto;
+        width: auto;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .head-main {
+        width: auto;
+    }
+
+    .pic1 img {
+        width: 350px;
+        height: 300px;
+        margin-left: -240px;
+        margin-top: 250px;
+    }
+
+    .about-us {
+        margin-top: 400px;
+    }
+
+
+    .collage {
+        justify-content: space-around;
+        align-content:space-around;
+    }
+
+    .footer-ul{
+        width: 103.5%;
+    }
+
+    .header-nav li a {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 20px;
+        padding: 4px 10px;
+
+    }
+
+
+    .header-nav {
+        margin: 0;
+        width: 103.9%;
+    }
+
+    .contact-box {
+        justify-content: space-between;
+    }
+
+    .side-text {
+        margin: auto;
+    }
+
+    }
