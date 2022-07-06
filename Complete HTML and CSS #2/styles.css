@@ -157,7 +157,7 @@ header li {
 }
 
 .joined-card h4 {
-    color:paleturquoise;
+    color:rgb(218, 236, 251);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-size: x-large;
@@ -185,3 +185,46 @@ header li {
     margin-left: 30px;
 }
 
+.floating-stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    background-color: aliceblue;
+    height: 120px;
+}
+
+.stat-card {
+    width: 23%;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.191);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.stat-card h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 26px;
+    color: rgb(5, 56, 106);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 auto;
+}   
+
+.icon-card {
+    width: 30%;
+    height: 60px;
+}
+
+.serv {
+    text-align: center;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    color: rgb(15, 80, 144);
+}
