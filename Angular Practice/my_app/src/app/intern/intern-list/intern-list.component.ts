@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intern-list.component.css']
 })
 export class InternListComponent implements OnInit {
+  public isGood: boolean;
+  public intern: string;
 
-  constructor() { }
+  constructor() {
+    this.isGood = true;
+    this.intern = "vyom";
+  }
 
   ngOnInit(): void {
   }

@@ -7,8 +7,7 @@ import { InternListComponent } from './intern-list/intern-list.component';
 
 @NgModule({
   declarations: [
-    InternFormComponent,
-    InternListComponent
+    InternFormComponent
   ],
   imports: [
     CommonModule

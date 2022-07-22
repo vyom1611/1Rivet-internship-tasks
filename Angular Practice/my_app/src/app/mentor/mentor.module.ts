@@ -7,7 +7,6 @@ import { MentorFormComponent } from './mentor-form/mentor-form.component';
 
 @NgModule({
   declarations: [
-    MentorListComponent,
     MentorFormComponent
   ],
   imports: [

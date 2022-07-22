@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class MentorListComponent implements OnInit {
   public name: string = "vyom";
   public imgSrc: string = "example.com";
+  public mentorList: string[];
 
-  constructor() { }
+  constructor() {
+    this.mentorList = ["Pratik", "Aayushi", "Viral"]
+  }
 
   ngOnInit(): void {
   }

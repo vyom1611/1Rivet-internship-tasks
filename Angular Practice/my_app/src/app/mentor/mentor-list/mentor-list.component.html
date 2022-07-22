@@ -1,9 +1,9 @@
 <button routerLink="../mentor-form">Add Mentor</button>
-<table>
+<table *ngFor="let item of this.mentorList">
     <tr>
         <th>Name</th>
     </tr>
     <tr>
-        <td>Pratik</td>
+        <td>{{item}}</td>
     </tr>
 </table>
