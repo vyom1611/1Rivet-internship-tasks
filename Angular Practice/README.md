@@ -4,3 +4,4 @@
 - Components/Modules
 - Routers and routing
 - Built-in Directives
+- Formatting with pipes

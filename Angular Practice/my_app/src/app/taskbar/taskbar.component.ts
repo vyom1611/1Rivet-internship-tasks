@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./taskbar.component.css']
 })
 export class TaskbarComponent implements OnInit {
+  public myName: string;
 
-  constructor() { }
+  constructor() {
+    this.myName = "vyom";
+  }
 
   ngOnInit(): void {
 

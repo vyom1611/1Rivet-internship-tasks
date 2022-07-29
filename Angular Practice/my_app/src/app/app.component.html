@@ -1,2 +1,18 @@
 <app-taskbar></app-taskbar>
+
 <router-outlet></router-outlet>
+
+<Table>
+  <thead>
+    <th>Name</th>
+    <th>Birth Date</th>
+    <th>Price</th>
+    <th>Counts</th>
+  </thead>
+  <tr>
+    <td>Vyom</td>
+    <td>{{ 16 / 11 / 2003 | date:'full' }}</td>
+    <td>{{ price | currency }}</td>
+    <td><{{ counts | number:'3.1-2' }}</td>
+  </tr>
+</Table>

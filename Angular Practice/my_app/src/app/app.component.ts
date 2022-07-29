@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  price: number = 45385.3;
+  counts: number = 1003495.35425;
 }
