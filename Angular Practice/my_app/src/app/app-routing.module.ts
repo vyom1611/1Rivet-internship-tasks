@@ -4,13 +4,18 @@ import { InternListComponent } from './intern/intern-list/intern-list.component'
 import { MentorListComponent } from './mentor/mentor-list/mentor-list.component';
 import { MentorFormComponent } from './mentor/mentor-form/mentor-form.component';
 import { InternFormComponent } from './intern/intern-form/intern-form.component';
+import {InternComponent} from "./intern/intern.component";
 
 
 const routes: Routes =  [
   {
     path: '',
-    redirectTo: 'intern-list',
+    redirectTo: 'intern',
     pathMatch: 'full'
+  },
+  {
+    path: 'intern',
+    component: InternComponent
   },
   {
     path: 'intern-list',

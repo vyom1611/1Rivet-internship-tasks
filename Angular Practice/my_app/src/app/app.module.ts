@@ -9,22 +9,27 @@ import { MentorFormComponent } from './mentor/mentor-form/mentor-form.component'
 import { MentorListComponent } from './mentor/mentor-list/mentor-list.component';
 import { TaskbarComponent } from './taskbar/taskbar.component';
 import { UserListComponent } from './user-list/user-list.component';
+import {InternComponent} from "./intern/intern.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    UserListComponent,
-    TaskbarComponent,
-    InternListComponent,
-    InternFormComponent,
-    MentorListComponent,
-    MentorFormComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        UserListComponent,
+        TaskbarComponent,
+        InternListComponent,
+        InternFormComponent,
+        MentorListComponent,
+        MentorFormComponent,
+        InternComponent,
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+    ],
+    providers: [],
+    exports: [
+        InternListComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
