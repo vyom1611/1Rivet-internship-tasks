@@ -5,11 +5,13 @@ This repository contains all the training tasks, assignments and weekly assessme
 
 ### Website images
 Website 1 (Full CSS with Flexbox Task 1)
-[My App.pdf](https://github.com/vyom1611/1Rivet-internship-tasks/files/9355005/My.App.pdf)
+![My App](https://user-images.githubusercontent.com/93402393/184995246-e7891601-bf74-4724-a5f4-322d540d1d83.png)
+
 
 
 Website 2 (HTML/CSS Task 2)
-[Document.pdf](https://github.com/vyom1611/1Rivet-internship-tasks/files/9355004/Document.pdf)
+![Document](https://user-images.githubusercontent.com/93402393/184995241-d8bd5ea0-0ad0-48b1-9f51-317a59892e4c.png)
+
 
 
 Website 3 (Full-HTML/CSS Task 3)
