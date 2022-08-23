@@ -1,1 +1,17 @@
 <p>intern-form works!</p>
+
+<form formGroupName="internForm">
+  <div>
+    <p>Name</p>
+    <input type="text" name="name" formControlName="name" />
+  </div>
+  <div>
+    <p>Age</p>
+    <input type="number" name="age" formControlName="age" />
+  </div>
+  <div>
+    <p>Email</p>
+    <input type="email" name="email" formControlName="email" />
+  </div>
+  <button type="button" (click)="onSubmit()">Submit</button>
+</form>

@@ -9,7 +9,6 @@ import {AppModule} from "../app.module";
 
 @NgModule({
   declarations: [
-    InternFormComponent,
   ],
     imports: [
         CommonModule,
