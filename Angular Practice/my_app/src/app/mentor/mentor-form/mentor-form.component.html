@@ -1,1 +1,17 @@
 <p>mentor-form works!</p>
+
+<form #mentorForm="ngForm" (ngSubmit)="onSubmit()">
+  <div>
+    <p>Name</p>
+    <input type="text" name="name" [(ngModel)]="model.name" required>
+  </div>
+  <div>
+    <p>Age</p>
+    <input type="text" name="email" [(ngModel)]="model.email" required>
+  </div>
+  <div>
+    <br>
+    <button type="submit">Submit</button>
+  </div>
+
+</form>

@@ -6,7 +6,6 @@ import { MentorFormComponent } from './mentor-form/mentor-form.component';
 
 @NgModule({
   declarations: [
-    MentorFormComponent
   ],
   imports: [
     CommonModule

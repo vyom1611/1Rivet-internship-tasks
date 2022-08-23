@@ -10,6 +10,7 @@ import { MentorListComponent } from './mentor/mentor-list/mentor-list.component'
 import { TaskbarComponent } from './taskbar/taskbar.component';
 import { UserListComponent } from './user-list/user-list.component';
 import {InternComponent} from "./intern/intern.component";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
     declarations: [
@@ -25,6 +26,7 @@ import {InternComponent} from "./intern/intern.component";
     imports: [
         BrowserModule,
         AppRoutingModule,
+        FormsModule,
     ],
     providers: [],
     exports: [
