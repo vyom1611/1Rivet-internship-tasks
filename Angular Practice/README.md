@@ -8,3 +8,5 @@
 - Custom pipes
 - Passing data from parent to child
 - Passing data from child to parent (two-way data binding)
+- Template driven forms
+- Reactive forms
