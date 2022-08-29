@@ -10,3 +10,5 @@
 - Passing data from child to parent (two-way data binding)
 - Template driven forms
 - Reactive forms
+- Lazy Loading
+- Http Services
